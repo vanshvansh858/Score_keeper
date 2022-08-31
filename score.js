@@ -43,5 +43,4 @@ function reset() {
   total_p2 = 0;
   player1.textContent = 0;
   player2.textContent = 0;
-  console.log("valo");
 }

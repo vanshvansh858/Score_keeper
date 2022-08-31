@@ -1,0 +1,84 @@
+.container-div{
+    text-align: center;
+}
+
+.container-2{
+    margin: 5%;
+    background-color: rgba(212, 234, 230, 0.4);
+    box-shadow: 0.2px 0.2px 19px rgb(130, 55, 127);
+}
+
+body{
+    background : linear-gradient(to bottom right, rgb(228, 29, 189),rgb(233, 125, 211),rgb(242, 191, 231),rgb(215, 192, 210));
+    background-repeat: no-repeat;
+}
+
+.container-div h1{
+    font-family: 'Work Sans', sans-serif;   
+    padding : 5% 5% 1% 5%;
+    display:inline-block;
+    border-bottom: 2px #000 solid;
+}
+
+select{
+    background-color: rgb(232, 212, 227);
+
+}
+
+.container-div h3{
+    font-family: 'Work Sans', sans-serif;   
+    padding : 2%;
+}
+.form{
+    font-family: 'Work Sans', sans-serif;   
+}
+
+.container-div h2{
+    margin: 5%;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.btn-container {
+    padding: 1%;
+}
+
+.btn-container button{
+    padding:  0.4% 1.4%;
+    font-family: 'Anonymous Pro', monospace;
+    background-color :rgb(228, 29, 189);
+    border: 2px rgb(228, 29, 189) solid;
+    color: #fff;
+    transition: 0.4s;
+}
+.btn-container button:hover{
+    background-color: rgb(241, 223, 238);
+    color: rgb(228, 29, 189);
+    border: 2px rgb(228, 29, 189) solid;
+}
+
+#button_1{
+    margin-right: 2%;
+}
+
+.restart-btn{
+    margin: 1%;
+    transition: 0.5s;
+    background-color: rgb(228, 29, 189);
+    color: #fff;
+    border: 0;
+    padding: 0.2% 1%;
+}
+
+.restart-btn div{
+    transition: 0.7s;
+    font-size: 1.2rem;
+}
+
+.restart-btn div:hover{
+    transform: rotate(-360deg);
+}
+
+#p1,#p2{
+    font-family: 'Anonymous Pro', monospace
+}
